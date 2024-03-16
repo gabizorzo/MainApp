@@ -1,0 +1,23 @@
+{
+  "name": "ModuleExample",
+  "version": "0.1.0",
+  "summary": "Module to be used in the App.",
+  "homepage": "https://github.com/gabizorzo/ModuleExample",
+  "authors": {
+    "Gabriela Zorzo": "gabrielazorzo@icloud.com"
+  },
+  "license": {
+    "type": "private"
+  },
+  "source": {
+    "git": "git@github.com:gabizorzo/ModuleExample.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "15.0"
+  },
+  "cocoapods_version": ">= 1.5",
+  "swift_versions": "5.0",
+  "source_files": "ModuleExample/**/*.{swift}",
+  "swift_version": "5.0"
+}
