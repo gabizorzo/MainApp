@@ -23,6 +23,7 @@
 		2379A7022BA63DF20071392B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		23BF372B2BA6644900373274 /* ModuleExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ModuleExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		23BF372D2BA665CC00373274 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		23BF372F2BA66AD200373274 /* ModuleExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ModuleExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		453DF070A20FE318D6F7EB6D /* Pods_MainApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MainApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F84C14C7BD156552F822351 /* Pods-MainApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MainApp.debug.xcconfig"; path = "Target Support Files/Pods-MainApp/Pods-MainApp.debug.xcconfig"; sourceTree = "<group>"; };
 		ED51A548718FCEB75D6E34B3 /* Pods-MainApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MainApp.release.xcconfig"; path = "Target Support Files/Pods-MainApp/Pods-MainApp.release.xcconfig"; sourceTree = "<group>"; };
@@ -90,6 +91,7 @@
 		564BE8BD2D6DCAD384D99633 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				23BF372F2BA66AD200373274 /* ModuleExample.framework */,
 				23BF372B2BA6644900373274 /* ModuleExample.framework */,
 				453DF070A20FE318D6F7EB6D /* Pods_MainApp.framework */,
 			);
@@ -276,7 +278,7 @@
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";

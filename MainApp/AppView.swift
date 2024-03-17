@@ -10,10 +10,10 @@ import SwiftUI
 struct AppView: View {
     var body: some View {
         ZStack {
-            Color(.gray)
+            Color(.black)
             
             VStack {
-                Text("Hello, world!")
+                Text("App View!")
                     .foregroundColor(.white)
             }
             .padding()

@@ -9,18 +9,23 @@ import ModuleExample
 import SwiftUI
 
 struct ContentView: View {
+    init() {
+    UITabBar.appearance().backgroundColor = UIColor.black
+    }
+    
     var body: some View {
         ZStack {
             TabView {
-                ModuleView()
-                    .tabItem {
-                        Label("Module", systemImage: "list.dash")
-                    }
                 AppView()
                     .tabItem {
                         Label("App", systemImage: "square.and.pencil")
                     }
+                ModuleView()
+                    .tabItem {
+                        Label("Module", systemImage: "list.dash")
+                    }
             }
+            
         }
     }
 }
