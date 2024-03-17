@@ -2,21 +2,21 @@ PODS:
   - ModuleExample (0.1.0)
 
 DEPENDENCIES:
-  - "ModuleExample (from `git@github.com:gabizorzo/ModuleExample.git`, commit `3c406d5b3c80d9ec373527bf08940e4959978d9a`)"
+  - "ModuleExample (from `git@github.com:gabizorzo/ModuleExample.git`, commit `b5df50bbe8666b432d6abcc97c8c37e2ab521ad0`)"
 
 EXTERNAL SOURCES:
   ModuleExample:
-    :commit: 3c406d5b3c80d9ec373527bf08940e4959978d9a
+    :commit: b5df50bbe8666b432d6abcc97c8c37e2ab521ad0
     :git: "git@github.com:gabizorzo/ModuleExample.git"
 
 CHECKOUT OPTIONS:
   ModuleExample:
-    :commit: 3c406d5b3c80d9ec373527bf08940e4959978d9a
+    :commit: b5df50bbe8666b432d6abcc97c8c37e2ab521ad0
     :git: "git@github.com:gabizorzo/ModuleExample.git"
 
 SPEC CHECKSUMS:
-  ModuleExample: 5358ae741f12327a23b03186cf45c8475dacba5a
+  ModuleExample: 8acc901cbecde319e89e932f5ae5a4c92f4ede1d
 
-PODFILE CHECKSUM: 0e6966e4f033647dc4167da9e9c614ea552d0e66
+PODFILE CHECKSUM: 6a84da8ee57147927cf0bebd967377c309c83912
 
 COCOAPODS: 1.13.0

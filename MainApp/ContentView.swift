@@ -10,7 +10,8 @@ import SwiftUI
 
 struct ContentView: View {
     init() {
-    UITabBar.appearance().backgroundColor = UIColor.black
+        UITabBar.appearance().backgroundColor = UIColor.black
+        UITabBar.appearance().unselectedItemTintColor = UIColor.white
     }
     
     var body: some View {
@@ -18,14 +19,15 @@ struct ContentView: View {
             TabView {
                 AppView()
                     .tabItem {
-                        Label("App", systemImage: "square.and.pencil")
+                        Label("Feed", systemImage: "music.note")
+                            .foregroundColor(.white)
                     }
                 ModuleView()
                     .tabItem {
-                        Label("Module", systemImage: "list.dash")
+                        Label("Profile", systemImage: "person.fill")
+                            .foregroundColor(.white)
                     }
             }
-            
         }
     }
 }

@@ -18,6 +18,14 @@
   },
   "cocoapods_version": ">= 1.5",
   "swift_versions": "5.0",
-  "source_files": "ModuleExample/**/*.{swift}",
+  "source_files": [
+    "ModuleExample/**/*.{swift}"
+  ],
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "i386 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "i386 arm64"
+  },
   "swift_version": "5.0"
 }

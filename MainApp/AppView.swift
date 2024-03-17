@@ -12,11 +12,40 @@ struct AppView: View {
         ZStack {
             Color(.black)
             
-            VStack {
-                Text("App View!")
+            VStack(alignment: .leading) {
+                Spacer(minLength: 32)
+                
+                Text("Feed")
+                    .font(.title)
+                    .fontWeight(.bold)
                     .foregroundColor(.white)
+                
+                GeometryReader { screen in
+                    VStack {
+                        Rectangle()
+                            .frame(width: screen.size.width, height: screen.size.width)
+                            .foregroundColor(.gray)
+                            .opacity(0.5)
+                        Rectangle()
+                            .frame(width: screen.size.width, height: screen.size.width)
+                            .foregroundColor(.gray)
+                            .opacity(0.5)
+                        Rectangle()
+                            .frame(width: screen.size.width, height: screen.size.width)
+                            .foregroundColor(.gray)
+                            .opacity(0.5)
+                        Rectangle()
+                            .frame(width: screen.size.width, height: screen.size.width)
+                            .foregroundColor(.gray)
+                            .opacity(0.5)
+                        Rectangle()
+                            .frame(width: screen.size.width, height: screen.size.width)
+                            .foregroundColor(.gray)
+                            .opacity(0.5)
+                    }
+                }
             }
-            .padding()
+            .padding(32)
         }
         .ignoresSafeArea()
     }

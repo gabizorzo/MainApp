@@ -7,5 +7,5 @@ workspace 'MainAppWorkspace'
 target 'MainApp' do
   use_frameworks!
   
-  pod 'ModuleExample', :git => 'git@github.com:gabizorzo/ModuleExample.git', :commit => '3c406d5b3c80d9ec373527bf08940e4959978d9a'
+  pod 'ModuleExample', :git => 'git@github.com:gabizorzo/ModuleExample.git', :commit => 'b5df50bbe8666b432d6abcc97c8c37e2ab521ad0'
 end

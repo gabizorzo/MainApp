@@ -14,8 +14,98 @@ public struct ModuleView: View {
             Color(.black)
             
             VStack {
-                Text("Hello, world!")
-                    .foregroundColor(.white)
+                Spacer(minLength: 32)
+                
+                HStack {
+                    VStack(alignment: .leading) {
+                        Text("Profile")
+                            .font(.title)
+                            .fontWeight(.bold)
+                            .foregroundColor(.white)
+                        Text("Name")
+                            .font(.title2)
+                            .foregroundColor(.white)
+                        Text("Bio")
+                            .font(.body)
+                            .foregroundColor(.white)
+                    }
+                    
+                    Spacer()
+                }
+                .padding()
+                
+                GeometryReader { screen in
+                    VStack {
+                        HStack {
+                            Circle()
+                                .frame(width: screen.size.width/5)
+                                .foregroundColor(.gray)
+                                .opacity(0.5)
+                            
+                            Circle()
+                                .frame(width: screen.size.width/5)
+                                .foregroundColor(.gray)
+                                .opacity(0.5)
+                            
+                            Circle()
+                                .frame(width: screen.size.width/5)
+                                .foregroundColor(.gray)
+                                .opacity(0.5)
+                            
+                            Circle()
+                                .frame(width: screen.size.width/5)
+                                .foregroundColor(.gray)
+                                .opacity(0.5)
+                        }
+                        
+                        Spacer()
+                            .frame(height: 32)
+                        
+                        HStack (alignment: .center) {
+                            Rectangle()
+                                .frame(width: screen.size.width/3 * 0.85, height: screen.size.width/3 * 0.85)
+                                .foregroundColor(.gray)
+                                .opacity(0.5)
+                            Rectangle()
+                                .frame(width: screen.size.width/3 * 0.85, height: screen.size.width/3 * 0.85)
+                                .foregroundColor(.gray)
+                                .opacity(0.5)
+                            Rectangle()
+                                .frame(width: screen.size.width/3 * 0.85, height: screen.size.width/3 * 0.85)
+                                .foregroundColor(.gray)
+                                .opacity(0.5)
+                        }
+                        HStack (alignment: .center) {
+                            Rectangle()
+                                .frame(width: screen.size.width/3 * 0.85, height: screen.size.width/3 * 0.85)
+                                .foregroundColor(.gray)
+                                .opacity(0.5)
+                            Rectangle()
+                                .frame(width: screen.size.width/3 * 0.85, height: screen.size.width/3 * 0.85)
+                                .foregroundColor(.gray)
+                                .opacity(0.5)
+                            Rectangle()
+                                .frame(width: screen.size.width/3 * 0.85, height: screen.size.width/3 * 0.85)
+                                .foregroundColor(.gray)
+                                .opacity(0.5)
+                        }
+                        HStack (alignment: .center) {
+                            Rectangle()
+                                .frame(width: screen.size.width/3 * 0.85, height: screen.size.width/3 * 0.85)
+                                .foregroundColor(.gray)
+                                .opacity(0.5)
+                            Rectangle()
+                                .frame(width: screen.size.width/3 * 0.85, height: screen.size.width/3 * 0.85)
+                                .foregroundColor(.gray)
+                                .opacity(0.5)
+                            Rectangle()
+                                .frame(width: screen.size.width/3 * 0.85, height: screen.size.width/3 * 0.85)
+                                .foregroundColor(.gray)
+                                .opacity(0.5)
+                        }
+                    }
+                    .padding()
+                }
             }
             .padding()
         }
@@ -23,3 +113,6 @@ public struct ModuleView: View {
     }
 }
 
+#Preview {
+    ModuleView()
+}
