@@ -10,8 +10,7 @@ import SwiftUI
 
 struct ContentView: View {
     init() {
-        UITabBar.appearance().backgroundColor = UIColor.black
-        UITabBar.appearance().unselectedItemTintColor = UIColor.white
+        UITabBar.appearance().isTranslucent = false
     }
     
     var body: some View {
@@ -29,6 +28,7 @@ struct ContentView: View {
                     }
             }
         }
+        .preferredColorScheme(.dark)
     }
 }
 
